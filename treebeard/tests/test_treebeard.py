@@ -2617,6 +2617,7 @@ class TestAdminTree(TestNonEmptyTree):
             m.list_editable,
             m,
             None,
+            None,
         )
         cl.formset = None
         context = Context({"cl": cl, "request": request})
@@ -2666,6 +2667,7 @@ class TestAdminTree(TestNonEmptyTree):
             m.list_editable,
             m,
             None,
+            None,
         )
         cl.formset = None
         context = Context({"cl": cl, "request": request})
@@ -2707,6 +2709,7 @@ class TestAdminTree(TestNonEmptyTree):
             m.list_editable,
             m,
             None,
+            None,
         )
         cl.formset = None
         context = Context({"cl": cl, "request": request})
@@ -2733,6 +2736,7 @@ class TestAdminTree(TestNonEmptyTree):
             m.list_editable,
             m,
             None,
+            None,
         )
         cl.formset = None
         context = Context({"cl": cl, "request": request})
@@ -2758,6 +2762,7 @@ class TestAdminTree(TestNonEmptyTree):
             m.list_max_show_all,
             m.list_editable,
             m,
+            None,
             None,
         )
         cl.formset = None
@@ -2802,6 +2807,7 @@ class TestAdminTreeList(TestNonEmptyTree):
             m.list_editable,
             m,
             None,
+            None,
         )
         cl.formset = None
         context = Context({"cl": cl, "request": request})
@@ -2834,6 +2840,7 @@ class TestAdminTreeList(TestNonEmptyTree):
             m.list_max_show_all,
             m.list_editable,
             m,
+            None,
             None,
         )
         cl.formset = None
@@ -2877,6 +2884,7 @@ class TestAdminTreeList(TestNonEmptyTree):
             m.list_max_show_all,
             m.list_editable,
             m,
+            None,
             None,
         )
         cl.formset = None
